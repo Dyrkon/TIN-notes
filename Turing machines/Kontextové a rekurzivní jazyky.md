@@ -1,0 +1,9 @@
+- **Každý** kontextový jazyk je **rekurzivní**
+- **Ne každý** rekurzivní jazyk je **kontextový**
+- Uzavřené vůči těm samým operacím jako rekurzivní jazyky
+- U kontextových jazyků již víme, že
+	- u nich lze rozhodovat členství věty do jazyka (rekurzívnost)
+	- nelze u nich rozhodovat inkluzi jazyků (neplatí ani pro *BKJ*)
+		- nelze určit, jestli jeden jazyk je podmnožinou druhého
+	- nelze rozhodovat prázdnost jazyka
+		- Postův problém přiřazení

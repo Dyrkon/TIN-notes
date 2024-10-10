@@ -1,0 +1,8 @@
+- Vhodné regulární jazyky pro dokazování:
+	- $\emptyset$
+	- $\Sigma^*$
+	- $\{\varepsilon\}$
+	- $a^*$
+	- $\Sigma^* \textbackslash \{\varepsilon\}$
+- Vhodné neregulární jazyky pro dokazování:
+	- $\{a^nb^n | n\ge 0\}$

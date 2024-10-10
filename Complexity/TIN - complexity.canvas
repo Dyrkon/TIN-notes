@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"68a14fa2706952c8","x":40,"y":-360,"width":820,"height":280,"type":"file","file":"School/MITAI/1MIT/Semester 1/Canvases/Complexity/Složitost výpočtu TS pro daný vstup.md"},
+		{"id":"49d2152e699eed71","x":-880,"y":-360,"width":800,"height":360,"type":"file","file":"School/MITAI/1MIT/Semester 1/Canvases/Complexity/Asymptotické omezení složitosti.md"},
+		{"id":"20bc5ceab41c59db","x":85,"y":80,"width":730,"height":400,"type":"file","file":"School/MITAI/1MIT/Semester 1/Canvases/Complexity/Třídy složitosti.md"},
+		{"id":"d9bc3c34a9633a6e","x":130,"y":-840,"width":640,"height":280,"type":"file","file":"School/MITAI/1MIT/Semester 1/Canvases/Complexity/Složitost algorytmů.md"},
+		{"id":"97bf4cc53ccb1585","x":1000,"y":-360,"width":840,"height":360,"type":"file","file":"School/MITAI/1MIT/Semester 1/Canvases/Complexity/Amortizovaná složitost.md"},
+		{"id":"d2a7702147635af2","x":-615,"y":760,"width":655,"height":480,"type":"file","file":"School/MITAI/1MIT/Semester 1/Canvases/Complexity/Nejběžnější užívané třídy složitosti.md"},
+		{"id":"1d6d93249538cfc1","x":130,"y":760,"width":640,"height":480,"type":"file","file":"School/MITAI/1MIT/Semester 1/Canvases/Complexity/Třídy pod a nad polynomiální složitostí.md"},
+		{"id":"b80f9ac2b63b4ebb","x":860,"y":760,"width":620,"height":360,"type":"file","file":"School/MITAI/1MIT/Semester 1/Canvases/Complexity/Třídy nad exponenciální složitostí.md"}
+	],
+	"edges":[
+		{"id":"32798cd0cb0bfb96","fromNode":"d9bc3c34a9633a6e","fromSide":"bottom","toNode":"49d2152e699eed71","toSide":"top"},
+		{"id":"460535bd25ca8bf5","fromNode":"d9bc3c34a9633a6e","fromSide":"bottom","toNode":"68a14fa2706952c8","toSide":"top"},
+		{"id":"8322ce775f3f4b79","fromNode":"68a14fa2706952c8","fromSide":"bottom","toNode":"20bc5ceab41c59db","toSide":"top"},
+		{"id":"d9abde84c1eff496","fromNode":"49d2152e699eed71","fromSide":"bottom","toNode":"20bc5ceab41c59db","toSide":"left"},
+		{"id":"8909d9833177379e","fromNode":"d9bc3c34a9633a6e","fromSide":"bottom","toNode":"97bf4cc53ccb1585","toSide":"top"},
+		{"id":"31ec88c3ac0d874c","fromNode":"20bc5ceab41c59db","fromSide":"bottom","toNode":"d2a7702147635af2","toSide":"top"},
+		{"id":"0a5a5ed9f1549859","fromNode":"20bc5ceab41c59db","fromSide":"bottom","toNode":"1d6d93249538cfc1","toSide":"top"},
+		{"id":"80c59a6696640280","fromNode":"20bc5ceab41c59db","fromSide":"bottom","toNode":"b80f9ac2b63b4ebb","toSide":"top"}
+	]
+}

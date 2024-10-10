@@ -1,0 +1,6 @@
+- *BKG* má vlastnost sebevložení, jesliže existuje
+	- $A \Rightarrow^{+} uAv \land u,v \in \Sigma^{+}$
+	- a $A$ není zbytečný nonterminál
+	- *BJ* má vlastnost sebevložení, jestliže každá gramatika, která jej generuje má vlastnost sebevložení
+- *BJ* má vlastnost sebevložení právě tehdy, když není regulární
+- Problém, zda daná *BKG* generuje *RJ* není algoritmicky rozhodnutelný

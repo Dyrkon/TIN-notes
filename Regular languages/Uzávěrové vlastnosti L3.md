@@ -1,0 +1,14 @@
+- Uzavřené na:
+	- $\cup$ - sjednocení
+		- plyne ze sjednocení KA
+	- $.$ - konkatenace
+		- plyne z konkatenace KA
+	- $*$ - iterace
+		- plyne z iterace KA
+	- $\cap$ - DeMorganovy zákony
+		- $\overline{\overline{L}\cup\overline{L}}$
+	- $\overline{L}$
+		- plyne z doplňku KA
+		- $L_{FIN}$ na $\overline{L}$ uzavřené **nejsou**
+	- $L^{R}$ - reverzace
+		- plyne z reverzace KA

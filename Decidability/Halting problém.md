@@ -1,0 +1,22 @@
+- Problém zastavení TS
+	- Zajímá nás kdy daný TS $M$ zastaví pro danou vstupní větu $w$
+- Není rozhodnutelný
+	- Pouze částečně rozhodnutelný
+- Komplement tohoto problému není ani částečně rozhodnutelný
+- Důkaz nerozhodnutelnosti pomocí diagonalizace:
+	- Mějme TS $M_x$, kde x je kod TS
+	- Mějme posloupnost všech TS nad $\Sigma = \{0,1\}$
+	- Vytvořme nekonečnou matici
+		- Sloupce tvoří zakodovaný vstup
+		- Řádky tvoří daný automat s jednotlivými vstupy
+		- V dané buňce je pak hodnota $C$ nebo $Z$ podle toho, jestli $M_x$ na $y$(vstupu) zastaví nebo cyklí
+	- Předpokládáme, že existuje úplný TS $K$ přijímající **HP**
+		- pokud tedy TS zastaví, tak přijme
+		- pokud TS cyklí, tak odmítne
+	- Sestavíme TS $N$, který:
+		- přijme pokud $K$ simulující $M_x$ odmítne
+		- cyklí pokud $K$ přijme
+	- TS $N$ komplementuje diagonálu
+	- TS $N$ se tedy liší od každého $M_x$ alespoň pro jeden řetězec
+		- Matice ale obsahuje všechny TS
+		- **Spor**

@@ -1,0 +1,2 @@
+- Metoda účtování
+- 

@@ -1,0 +1,3 @@
+- $(\gamma A \delta \Rightarrow \gamma\alpha\delta) \Leftrightarrow \alpha, \gamma, \delta \in (N \cup \Sigma)^{*} \land A \in N \land (A,\alpha) \in P$
+	- Při přepisování je nám jedno co je před a za neterminálem $A$, který přepisujeme
+		- Proto se gramatika nazývá bezkontextová

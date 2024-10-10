@@ -1,0 +1,9 @@
+- Turingův stroj se nazývá **úplný**, právě když pro **každý vstup zastaví**
+- Nedeterministický TS je **úplný**, právě když se pro každý vstup je **výpočetní větev konečná** (tj. **pro každý vstup se vždy zastaví**)
+- Jazyk $L \subseteq \Sigma^{*}$ se nazývá
+	- rekurzivně vyčíslitelný (**RE**), jestliže $L = L(M)$ pro nějaký TS *M*
+	- rekurzivní (*REC*), jestliže $L = L(M)$ pro nějaký **úplný** TS *M*
+- TS přijímající rekurzivně vyčíslitelný jazyk L
+	- zastaví pro každé $w \in L$
+	- zastaví **neb cyklí** pro $w \notin L$
+- Jsou-li $L$ i $\overline{L}$ rekurzivně vyčíslitelné, pak jsou oba rekurzivní

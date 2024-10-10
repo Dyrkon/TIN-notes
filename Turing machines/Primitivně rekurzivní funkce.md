@@ -1,0 +1,5 @@
+- Třída primitivně rekurzivních funkcí je třída totálních funkcí, které mohou být vytvořeny z počátečních funkcí konečnou aplikací
+	- kombinace
+	- kompozice
+	- primitivní rekurze
+- Charakteristika (bez důkazu): Primitivně rekurzivní funkce je taková, kterou lze zapsat jako počítačový program obsahující pouze konečné for cykly a žádné while cykly nebo skoky.

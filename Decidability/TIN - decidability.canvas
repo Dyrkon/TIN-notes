@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"30114f040dda1eae","type":"file","file":"School/MITAI/1MIT/Semester 1/Canvases/Decidability/Diagonalizace.md","x":-1215,"y":-640,"width":745,"height":400},
+		{"id":"4b557a762ac495a2","type":"file","file":"School/MITAI/1MIT/Semester 1/Canvases/Decidability/Redukce.md","x":-412,"y":-640,"width":920,"height":480},
+		{"id":"93961f1286d0f544","type":"file","file":"School/MITAI/1MIT/Semester 1/Canvases/Decidability/Halting problém.md","x":-340,"y":80,"width":776,"height":840},
+		{"id":"b3bf13e5f5efd506","type":"file","file":"School/MITAI/1MIT/Semester 1/Canvases/Decidability/Membership problém.md","x":-1160,"y":100,"width":690,"height":320},
+		{"id":"4fbf5d91e3864111","type":"file","file":"School/MITAI/1MIT/Semester 1/Canvases/Decidability/Postův korespondenční problém.md","x":560,"y":80,"width":560,"height":160},
+		{"type":"text","text":"### Rozhodnutelnost\n[Zdroj](https://www.fit.vutbr.cz/study/courses/TIN/public/Prednasky/tin-pr06-nr.pdf)","id":"50406fb5260e4e3c","x":-226,"y":-1060,"width":548,"height":176},
+		{"id":"ecabc6d2a298b15e","type":"link","url":"https://www.fit.vutbr.cz/study/courses/TIN/public/Prednasky/tin-pr06-nr.pdf","x":520,"y":-1060,"width":500,"height":384}
+	],
+	"edges":[
+		{"id":"a58dda4071ed87ff","fromNode":"4b557a762ac495a2","fromSide":"bottom","toNode":"b3bf13e5f5efd506","toSide":"top"},
+		{"id":"27ae599ae8923a15","fromNode":"4b557a762ac495a2","fromSide":"bottom","toNode":"93961f1286d0f544","toSide":"top"},
+		{"id":"b12ce97b6fae13ad","fromNode":"4b557a762ac495a2","fromSide":"bottom","toNode":"4fbf5d91e3864111","toSide":"top"},
+		{"id":"1eb37c2721cef52e","fromNode":"50406fb5260e4e3c","fromSide":"bottom","toNode":"4b557a762ac495a2","toSide":"top"},
+		{"id":"fbcff8890a05fe93","fromNode":"50406fb5260e4e3c","fromSide":"bottom","toNode":"30114f040dda1eae","toSide":"top"}
+	]
+}

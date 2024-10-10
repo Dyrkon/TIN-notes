@@ -1,0 +1,10 @@
+- Rozhodovací problém může být chápán jako funkce $f_{P}$ s oborem hodnot $\{true, false\}$
+- Rozhodovací problém je obvykle specifikován:
+	- Definičním oborem $A_{P}$ reprezentujícím množinu možných instancí problému (vstupů)
+	- Podmnožinou $B_{P} \subseteq A_{P}, B_{P} = \{p \mid f_{P}(p) = true\}$ instancí, pro které je hodnota $f_{P}$ rovna $true$
+- Ke kodování jednotlivých instancí problémů se používá řetězec nad vhodnou abecedou $\Sigma$
+- Pak je rozhodovací problém P přirozeně specifikován jazykem $L_{p} = \{w \in \Sigma^{*} \mid w = code(p), p \in B_{P}\}$, kde $code : A_{P} \rightarrow \Sigma^{*}$ je injektivní funkce, která přiřazuje instancím problému příslušný řetězec  (nezávisle na $f_{P}$)
+- Příklady rozhodovacích problémů
+	- $P_{1}$ - orientovaný graf je silně souvislý
+	- $P_{2}$ - dvě BKG jsou ekvivalentní
+	- $P_{3}$ - n je prvočíslo

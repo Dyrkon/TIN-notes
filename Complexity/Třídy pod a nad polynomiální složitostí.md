@@ -1,0 +1,7 @@
+- $LOGSPACE = \bigcup\limits_{k = 0}^{\infty} DSpace(k \cdot log(n))$
+- $NLOGSPACE = \bigcup\limits_{k = 0}^{\infty} NSpace(k \cdot log(n))$
+- $EXP = \bigcup\limits_{k = 0}^{\infty} DTime(2^{n^k})$
+- $NEXP = \bigcup\limits_{k = 0}^{\infty} NTime(2^{n^k})$
+- $EXPSPACE = \bigcup\limits_{k = 0}^{\infty} DSpace(2^{n^k})$
+- $NEXPSPACE = \bigcup\limits_{k = 0}^{\infty} NSpace(2^{n^k})$
+-  Platí, že: $EXPSPACE \equiv NEXPSPACE$

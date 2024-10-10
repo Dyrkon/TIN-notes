@@ -1,0 +1,11 @@
+- Ve třídě $\mathcal{L}_3$ jsou rozhodnutelné:
+	- problém neprázdnosti
+		- $L \neq \emptyset$
+		- Můžeme zjisti pomocí fix-point algoritmu (iterační krok):
+			- $Reach_{i} = Reach_{i-1} \cup \{q \in Q | \exists r \in Reach_{i-1} : \exists a \in \Sigma\ : q \in \delta(r,a)\}$
+	- problém univerzality
+		- $L = \Sigma^*$
+	- problém náležitosti
+		- $w \in L$
+	- problém ekvivalence
+		- $L(G_1) = L(G_2)$

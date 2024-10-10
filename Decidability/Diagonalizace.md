@@ -1,0 +1,7 @@
+- Sestavíme nekonečnou matici
+	- Rádky a sloupce zvolíme tak aby matice reprezentovala všechny možné kombinace
+		- Například kody TS a vstupy
+	- Každá buňka matice má pak nějakou hodnotu
+		- V případě TS a vstupů je to například jestli TS přijme (1) nebo zmítne (0)
+- Následně vytvoříme takový jazyk, aby se na diagonále lišil od všech řádků
+- Jelikož matice měla obsahovat všechny možné případy, tak dochází ke sporu

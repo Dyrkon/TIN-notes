@@ -1,0 +1,8 @@
+- Funkce $t,s: \mathbb{N} \rightarrow \mathbb{N}$
+- $T_M$ značí časovou složitost TS $M$
+- $S_M$ značí prosotrovou složitost TS $M$
+- Pomocí těchto funkcí a složitostí definujeme následující časové a prostorové třídy složitosti det. a nedet. TS:
+	- $DTime[t(n)] = \{L \mid \exists k$-páskový DTS $M: L = L(M)$ a $T_M \in O(t(n))\}$
+	- $NTime[t(n)] = \{L \mid \exists k$-páskový NTS $M: L = L(M)$ a $T_M \in O(t(n))\}$
+	- $DSpace[s(n)] = \{L \mid \exists k$-páskový DTS $M: L = L(M)$ a $S_M \in O(s(n))\}$
+	- $NSpace[s(n)] = \{L \mid \exists k$-páskový NTS $M: L = L(M)$ a $S_M \in O(s(n))\}$

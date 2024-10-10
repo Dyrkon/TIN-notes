@@ -1,0 +1,10 @@
+- Jde o převod *BKG* na *ZA*
+- Pro převod používáme dvě pravidla
+	- $\forall a \in \Sigma : \delta(q,a,a) = \{(q, \varepsilon)\}$
+	- $(\beta, \alpha) \in P \Rightarrow (q,\alpha) \in \delta(q,\varepsilon, \beta)$
+- Automat *M*
+	- $M = (\{q\}, T, N\cup T, \delta,q,S,\emptyset)$
+- Takto vytvořený *ZA* přijímá vyprázdněním zásobníku
+- Automat má typicky jen jeden stav
+- Postup pravidel nově vytvořeného *ZA* pro nějaký řetězec můžeme vyčíst z derivačního stromu řetězce 
+- [Příklad využití algoritmu](https://youtu.be/Vp_oBaNiIFg?list=PLdn7h8pmNOL-dewLJKrUIlDNtPBRytnRB&t=5426)

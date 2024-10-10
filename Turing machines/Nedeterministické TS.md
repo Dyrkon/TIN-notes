@@ -1,0 +1,4 @@
+- Změní se nám přechodová funkce
+	- $\delta : (Q \; \backslash \; \{q_{F}\}) \times \tau \rightarrow 2^{Q \times (\tau \cup \{L,R\})}$
+- Pro každý NTS *M* existuje DTS $M^{'}$ takový, že $L(M) = L(M^{'})$
+- Zavedením nedeterminismu do TS se nezvyšuje jejich schopnost přijímat jazyky 

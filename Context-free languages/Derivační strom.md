@@ -1,0 +1,6 @@
+- Grafické vyjádření struktury věty (její derivace)
+	- Nabývá formu stromu
+	- Nazývá se derivační nebo syntaktickým strom
+- Vrcholy *DS* jsou ohodnoceny symboly $N \cup \Sigma \cup \{\varepsilon\}$
+- Derivace se vytváří pomocí pravidel
+- Ohodnocení koncových uzlů zleva doprava tvoří větnou formu nebo větu $\delta$

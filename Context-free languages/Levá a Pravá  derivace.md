@@ -1,0 +1,3 @@
+- Nechť v každém řetězci, který derivujeme byl přepsán **nejlevější (nejpravější)** neterminál, tak tuto derivaci nazýváme **levou (pravou)**
+- Pravá: $S \Rightarrow AB \Rightarrow aAaB \Rightarrow abaB \Rightarrow abab$
+- Levá: $S \Rightarrow AB \Rightarrow Ab \Rightarrow aAab \Rightarrow abab$

@@ -1,0 +1,5 @@
+- $k-EXP = \bigcup\limits_{l=0}^{\infty} DTime(2^{2^{n^l}})$
+- $k-NEXP = \bigcup\limits_{l=0}^{\infty} NTime(2^{2^{n^l}})$
+- $k-EXSPACE = \bigcup\limits_{l=0}^{\infty} DSpace(2^{2^{n^l}})$
+- $k-NEXSPACE = \bigcup\limits_{l=0}^{\infty} NSpace(2^{2^{n^l}})$
+- Platí, že: $k-EXSPACE \equiv k-NEXSPACE$

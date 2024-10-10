@@ -1,0 +1,8 @@
+- Konfigurace $C$ KA je dvojce
+	- $C = (q,w)$
+	- $(q,w) \in Q \times \Sigma^*$
+		- kde $q$ je aktuální stav a $w$ je dosud nezpracovaná část řetězce
+- Počáteční konfigurace je:
+	- $(q_0, a_0 a_1 a_2 a_3 ... a_n)$
+- Koncová konfigurace je:
+	- $(q_F, \varepsilon)$, kde $q_F \in F$

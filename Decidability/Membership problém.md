@@ -1,0 +1,6 @@
+- Podobný problém jako [[Halting problém]]
+- Pokud řetězec patří do jazyka, tak TS přijímá
+- Pokud řetězec nepatří do jazyka, TS odmítá
+- Pro nekonečný jazyk může TS běžet nekonečně dlouho
+	- Problém je tedy jen částečně rozhodnutelný
+	- Jeho rozhodnutelnost můžeme redukovat na [[Halting problém]]

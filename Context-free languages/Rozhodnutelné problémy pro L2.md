@@ -1,0 +1,11 @@
+- Neprázdnost jazyka
+	- Sestrojíme množinu $N_{t}$
+	- $L(G) \neq \emptyset \Leftrightarrow S \in N_{t}$
+- Příslušnost $w$
+	- Určíme průnik *NZA* a *KA* přijímající právě $w$ a pak ověříme neprázdnost
+- Konečnost
+	- Ověříme, že žádný řetězec ze $\Sigma_{*}$ o délce mezi $k$ a $2k-1$ nepatří do daného jazyka
+		- Pokud existuje, tak ho můžeme napumpovat
+		- Pokud neexistuje, $k-1$ je horní limit délky řetězců
+		- Pokud existuje a je delší jako $2k$, tak ho podle *P.L.* můžeme vypouštěním zkrátit na délku mezi $k$ a $2k-1$
+	- K určení *k* postačí, když $L$ bude v *CNF* s $n$ nonterminály, pak zvolíme $k = 2^{n}$ viz. *P.L.*

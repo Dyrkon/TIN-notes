@@ -1,0 +1,5 @@
+- Nechť $G = (N,\Sigma,P,S)$ je gramatika
+- $\alpha \in (N \cup \Sigma)^*$ je řetězec
+	- ten nazýváme větnou formou
+	- platí $S \Rightarrow^* \alpha$
+- Větná forma, která obsahuje pouze terminální symboly se nazývá věta

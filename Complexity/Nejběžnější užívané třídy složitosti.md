@@ -1,0 +1,9 @@
+- Deterministický polynomiální čas
+	- $P  = \bigcup\limits_{k=0}^{\infty} DTime(n^k)$
+- Nedeterministický polynomiální čas
+	- $NP  = \bigcup\limits_{k=0}^{\infty} NTime(n^k)$
+- Deterministický polynomiální prostor
+	- $PSPACE = \bigcup\limits_{k=0}^{\infty} DSpace(n^k)$
+- Nedeterministický polynomiální prostor
+	- $NPSPACE = \bigcup\limits_{k=0}^{\infty} NSpace(n^k)$
+- Platí, že: $PSPACE \equiv NPSPACE$

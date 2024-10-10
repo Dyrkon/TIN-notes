@@ -1,0 +1,7 @@
+- Vezmeme gramatiku G, která je v [Chomského normální formě](https://cs.wikipedia.org/wiki/Chomsk%C3%A9ho_norm%C3%A1ln%C3%AD_forma)
+- Plný binární strom s větvemi o $n$ uzlech, má $2^{n-1}$ listů
+- Pak platí, že slovo $w$ vytvořené G bude mít délku $\mid w \mid \leq 2^{m-2}$, kde $m$ je počet nejdelší cesty v odpov. derivačním stromu
+	- $\mid w \mid$ je totiž rovno počtu přímých předchůdců listů, ten je maximálně roven počtu listů plného BT, jehož všechny větve obsahují $m-1$ uzlů, což nám dává  $2^{m-2}$
+- Položíme k = $2^{\mid N \mid} \gt 0$ a uvažujeme lib. větu $z$ takovou, že $\mid z \mid \geq k$
+- Je-li $m$ počet vrcholů nejdelší cesty, pak platí $2^{\mid N \mid} \leq 2^{m-2}$ a taková cesta pak obsahuje alespoň $\mid N \mid + 2$ vrcholů
+	- Z toho plyne, že alespoň 2 vrcholy jsou označeny stejným neterminálem

@@ -1,0 +1,5 @@
+- Jazyk je automatem přijímán automatem, pokud:
+	- V konečném počtu přechodů přejdeme z počátečního stavu do stavu koncového 
+	- Přečteme všechny symboly z pásky
+	- Toto uděláme pro všech řetězce z jazyka
+- $L(A) = \{w \in \Sigma^* \mid \forall f \in F: (s_0, w) \vdash_A^* (f, \varepsilon)\}$

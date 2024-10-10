@@ -1,0 +1,7 @@
+- Symbol $\Delta$ značí *blank*, ten se vyskytuje na místě pásky, která ještě nebyla použíta
+- Konfigurace pásky je dvojce skládající se z nekonečného řetězce reprezentujícího obsah pásky a pozice hlavy na tomto řetězci
+	- $\{\gamma\Delta^{w}\ \mid \gamma \in \tau^{*}\} \times \mathbb{N}$
+- Konfiguraci pásky zapisujeme jako řetězec
+	- $\Delta x y z \underline{z} \Delta x \Delta$
+- Konfiguraci stroje je dána stavem řízení a konfigurací pásky
+	- Formálně prvek množiny $Q \times \{\gamma\Delta^{w} \mid \gamma \in \tau^{*}\} \times \mathbb{N}$

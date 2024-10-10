@@ -1,0 +1,2 @@
+1. Řetězec $w \in \Sigma^{*}$ je přijat TS *M*, jestliže *M* při aktivaci z počáteční konfigurace pásky a počátečního stavu $q_{0}$ zastaví přechodem do koncového stavu $q_{F}$, tj. $(q_{0}, \Delta w \Delta^{\omega},0) \vdash^{*}_{M} (q_{F},\gamma,n)$ 
+2. Množinu $L(M) = \{w \mid$ je přijat TS *M* $\} \subseteq \Sigma^{*}$ nazýváme jazyk přijímaný TS *M*

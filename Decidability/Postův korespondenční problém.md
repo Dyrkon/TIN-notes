@@ -1,0 +1,1 @@
+- PKP je nerozhodnutelný

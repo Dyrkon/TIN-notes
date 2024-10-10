@@ -1,0 +1,8 @@
+- Uzavřenost
+	- Uzavřené vůči
+		- $\cup$
+		- $\cap$
+		- $.$
+		- $*$
+		- $\overline{L}$
+	- Neuzavřenost vůči

@@ -1,0 +1,4 @@
+- Konfigurací automatu $A$ nazveme trojci $(q,w,a) \in Q \times \Sigma^{*} \times \tau^{*}$
+	- $q$ je pritomný stav
+	- $w$ je dosud nezpracovaná část vstupního řetězce
+	- $\alpha$ je obsah zásobníku

@@ -1,0 +1,7 @@
+- Gramatika obsahuje cykly, jestliže $A \in N$ a $A \Rightarrow^{+}A$
+- Jesliže gramatika $G$ obsahuje cyklus v neterminálu a existuje derivace
+	- $S \Rightarrow^{*} \alpha A \beta \Rightarrow^{+} w, w \in \Sigma^{*}, \alpha, \beta \in (N \cup \Sigma)^{*}$
+	- pek je $G$ víceznačná
+- Zdroje cyklů
+	- Jednoduchá pravidla
+	- $\varepsilon$-pravidla

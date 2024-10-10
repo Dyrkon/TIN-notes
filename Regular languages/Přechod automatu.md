@@ -1,0 +1,10 @@
+-  $M$ rozumíme binární relaci $\$vdash_{M}$ v množině konfigurací $C$
+	- $\vdash^{*}_{M} \subseteq (Q \times \Sigma^*) \times (Q \times \Sigma^*)$
+- která je definovaná takto:
+	- $(q,w) \vdash_M (q',w')  \overset{def}{\Leftrightarrow} w = aw' \land q' \in \delta(q,a)$
+	- kde:
+		- $q, q' \in Q$
+		- $w, w' \in \Sigma^*$
+		- $a \in \Sigma$
+- řetězec přijímaný KA je definovaný takto:
+	- $(q_0,w) \vdash^{*}_{M} (q, \varepsilon)$, kde $q \in F$

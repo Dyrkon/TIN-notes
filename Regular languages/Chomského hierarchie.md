@@ -1,0 +1,19 @@
+Je definovaná na základě tvaru přepisovacích pravidel
+- Typ 0 - obecné (neomezené) gramatiky
+	- $\alpha \rightarrow \beta$
+	- $\alpha \in (N \cup \Sigma)^*N(N \cup \Sigma)^*$
+	- $\beta \in (N \cup \Sigma)^*$
+- Typ 1 - kontextové gramatiky
+	- $\alpha A \beta \rightarrow \alpha \gamma \beta$
+	- $A \in N$
+	- $\alpha,\beta \in (N \cup \Sigma)^*$
+	- $\gamma \in (N \cup \Sigma)^+$
+	- nebo $S \rightarrow \varepsilon$, pakliže $S$ se neobjevuje na žádné pravé straně žádného pravidla
+- Typ 2 - bezkontextové gramatiky
+	- $A \rightarrow \alpha$
+	- $A \in N$
+	- $\alpha \in (N \cup \Sigma)^*$
+- Typ 3 - regulární gramatiky
+	- $A \rightarrow xB$ nebo $A \rightarrow x \mid \varepsilon$
+	- $A,B \in N$
+	- $x \in \Sigma$

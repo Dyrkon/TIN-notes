@@ -1,0 +1,3 @@
+- klíčový pro převod NKA na DKA
+- určí v daném stavu množinu stavů, které jsou dostupné po $\varepsilon$ hranách 
+- $\varepsilon-uzávěr(q) = \{p \mid \exists w \in \Sigma^* : (q,w) \vdash^* (p,w)\}$

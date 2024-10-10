@@ -1,0 +1,7 @@
+- Zavedeno pro vyloučení aditivních a multiplikativních konstant z rovnice složitosti
+- Asymptotické horní omezení funkce
+	- $O(f(n)) = \{g(n) \in \mathcal{F} \mid \exists c \in \mathbb{R}^+ \; \exists n_0 \in \mathbb{N}: n \geq n_0 \Rightarrow 0 \leq g(n) \leq c.f(n)\}$
+- Asymptotické dolní omezení funkce
+	- $\Omega(f(n)) = \{g(n) \in \mathcal{F} \mid \exists c \in \mathbb{R}^+ \; \exists n_0 \in \mathbb{N}: n \geq n_0 \Rightarrow 0 \leq c.f(n) \leq g(n)\}$
+- Asymptotické oboustranné omezení funkce
+	- $\mathcal{F} \; \exists c_1. c_2 \in \mathbb{R}^+ \exists n_0 \in \mathbb{N} \; \forall n \in \mathbb{N}: n \geq n_0 \Rightarrow 0 \leq c_1 \cdot f(n) \leq g(n) \leq c_2 \cdot f(n)$

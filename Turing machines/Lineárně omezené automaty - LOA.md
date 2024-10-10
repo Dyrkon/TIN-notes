@@ -1,0 +1,5 @@
+- *LOA* je nedeterministický TS, který nikdy neopustí tu část pásky, na níž je zapsán jeho vstup
+- Formálně můžeme LOA definovat jako NTS, který má v $\tau$ speciální symbol, který označuje konce pásku vpravo a, který nemůže přepsat ani se za něj posunout
+- Deterministický LOA můžeme definovat jako DTS a s páskou to má stejně jako LOA
+- Není známo jestli je DLOA striktně slabší jako LOA
+- Třída jazyků, které lze generovat kontextovými gramatikami odpovídá třídě jazyků, které přijímá LOA

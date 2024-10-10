@@ -1,0 +1,8 @@
+- Pro libovolný řetězec $\gamma \in \tau^{w}$ a číslo $n \in \mathbb{N}$ označme $\gamma_{n}$ n-tý symbol daného řetězce a označme $s_{b}^{n}(\gamma)$ řetězec, který vznikne z $\gamma$ záměnou $\gamma_{n}$ za $b$
+- Krok  výpočtu TS *M* definujeme jako nejmenší binární relaci $\vdash_{M}$ takovou, že $\forall q_{1}, q_{2} \in Q \; \forall \gamma \in \tau^{\omega} \; \forall n \in \mathbb{N} \; \forall b \in \tau$
+	- $(q_{1}, \gamma, n) \vdash_{M} (q_{2}, \gamma, n+1)$ pro $\delta(q_{1}, \gamma_{n}) = (q_{2}, R)$
+		- operace posuvu doprava při $\gamma_{n}$ pod hlavou
+	- $(q_{1}, \gamma, n) \vdash_{M} (q_{2}, \gamma, n-1)$ pro $\delta(q_{1}, \gamma_{n}) = (q_{2}, L)$
+		- operace posuvu doleva při $\gamma_{n}$ pod hlavou
+	- $(q_{1}, \gamma, n) \vdash_{M} (q_{2}, s_{b}^{n}(\gamma), n)$ pro $\delta(q_{1}, \gamma_{n}) = (q_{2}, b)$
+		- operace zápisu $b$ při $\gamma_{n}$ pod hlavou

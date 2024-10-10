@@ -1,0 +1,8 @@
+- Je pětice $M = (Q, \Sigma, \delta, q_0, F)$
+- $Q$ je konečná neprázdná množina stavů
+- $\Sigma$ je konečná vstupní abeceda 
+- $\delta$ je funkce přechodů (přechodová funkce) tvaru
+	- $Q \times \Sigma \rightarrow 2^Q$
+	- $\forall q \in Q, \forall a \in \Sigma: \; \mid \delta(q,a) \mid \leq 1$
+- $q_0 \in Q$ je počáteční stav
+- $F \subseteq Q$ je množina koncových stavů

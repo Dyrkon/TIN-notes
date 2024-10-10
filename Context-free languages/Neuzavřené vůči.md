@@ -1,0 +1,16 @@
+- $\mathcal{L}_{2}$ **nejsou** uzavřené vůči $\cap$
+	- Protipříklad:
+		- $L_{1} = \{a^{m}b^{m}c^{n} \mid n,m \geq 1 \} \in \mathcal{L}_{2}$
+		- $L_{2} = \{a^{m}b^{n}c^{n} \mid n,m \geq 1 \} \in \mathcal{L}_{2}$
+		- $L_{1} \cap L_{2} = \{a^{n}b^{n}c^{n} \mid n \geq 1\}$
+		- $L_{1} \cap L_{2} \notin \mathcal{L}_{2}$
+- $\mathcal{L}_{2}$ **nejsou** uzavřené vůči $\overline{L}$
+	- Protipříklad:
+		- Použítí [De Morganových zákonů](https://en.wikipedia.org/wiki/De_Morgan%27s_laws)
+		- $L_{1} \cap L_{2} = \overline{\overline{L_{1} \cap L_{2}}} = \overline{\overline{L_{1}} \cup \overline{L_{2}}}$
+			- Spor
+- $\mathcal{L}_{2}$ **nejsou** uzavřené vůči $\backslash$
+	- Protipříklad:
+		- $L_{1} = \{a^{n}b^{n}c^{m} \mid n,m \geq 0\}$
+		- $L_{2} = \{w \in \{a,b,c\}^{*} \mid \#_{b}(w) \neq \#_{c}(w)\}$
+		- $L_{1} \backslash L_{2} = \{a^{n}b^{n}c^{n} \mid n \geq 0\} \notin \mathcal{L}_{2}$

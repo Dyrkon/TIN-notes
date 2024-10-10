@@ -1,0 +1,12 @@
+- Uzavřené vůči
+	- Substituci
+	- $\cup$
+	- $.$
+	- $*$
+	- $+$
+	- $\mathcal{L}_{2} \cap \mathcal{L}_{3}$
+		- Výsledkem je $\mathcal{L}_{2}$
+- Neuzavřené vůči
+	-  $\cap$
+	- $co-L$ neboli $\overline{L}$
+	- $\mathcal{L}_{2} \backslash\mathcal{L}_{2}$ - rozdíl

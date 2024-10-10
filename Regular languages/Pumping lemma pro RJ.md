@@ -1,0 +1,14 @@
+- Nechť $L$ je regulární jazyk. Pak existuje celočíselná konstanta $k \gt 0$, že platí:
+	- $L \in \mathcal{L}_3 \Rightarrow \exists k \gt 0: \forall w \in \Sigma^* : w \in L \; \land \mid w \mid  \; \lt k \Rightarrow$ 
+		- $\exists x,y,z \in \Sigma^*: xyz = w \; \land y \neq \varepsilon \; \land$ 
+		- $\mid xy \mid \; \leq k \; \land$
+		- $\forall i \geq0 : xy^iz \in L$
+- Slouží pro dokázání, že daný jazyk **nepatří** do výpočetní třídy $\mathcal{L}_3$
+- Princip fungování:
+	- Konečný automat může přijímat nekonečné jazyky díky cyklům
+	- Pokud bylo přijato slovo, u kterého bylo nutné provést cyklus, tak bude přijato i slovo
+		- U kterého cyklus proveden nebyl 
+		- Cyklus byl proveden libovolně konečně krát
+	- Pokud automat přijmul slovo, které je $\geq k: k = \; \mid Q\mid$, tak musela proběhnout iterace cyklu
+	- Pokud bude automat přijímat nějaké dlouhé slovo, tak cyklus proběhne někde na začátku
+	- Pomocí PL ukážeme, že námi vybrané slovo po přidání nebo odebrání iterace již nepatří do jazyka

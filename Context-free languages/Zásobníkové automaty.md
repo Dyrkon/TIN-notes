@@ -1,0 +1,17 @@
+- Nedeterministické (NZA)
+- Deterministické (DZA)
+- N-tice $A = (Q,\Sigma, \tau, \delta, q_{0}, Z_{0}, F)$, kde:
+	- $Q$ je konečná množina vnitřních stavů
+	- $\Sigma$ je konečná vstupní abeceda
+	- $\tau$ konečná zásobníková abeceda
+	- $\delta$ přechodová funkce ve tvaru $\delta : Q \times (\Sigma \cup \{\varepsilon\}) \times \tau \rightarrow 2^{Q \times \tau^{*}}$
+	- $q_{0} \in Q$ je počáteční stav
+	- $Z_{0} \in \tau$ je startovací symbol zásobníku
+	- $F \subseteq Q$ je množina koncových stavů
+	- $\forall q \in Q : \forall a \in \Sigma \cup \{\varepsilon\}: \forall z \in \tau : \exists n \in \mathbb{N} : \mid \delta(q,a,z) \mid = n$
+		- Mělo být ještě uvedeno, že platí ^^
+- Můžou přijmout
+	- Přechodem to koncového stavu
+	- Vyprázdněním zásobníku
+	- Obojím naráz
+- Třída *BKJ* a třída jazyků přijímaných *ZA* jsou totožné

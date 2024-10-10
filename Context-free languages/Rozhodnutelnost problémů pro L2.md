@@ -1,0 +1,7 @@
+- Rozhodnutelné
+	- neprázdnosti jazyka $L(G)$
+	- příslušnosti řetězce $w \in \Sigma^{*}$ do $L(G)$
+	- konečnost $L(G)$
+- Nerozhodnutelné
+	- ekvivalence $L(G_{1}) = L(G_{2})$
+	- inkluze jazyků *BKG* $L(G_{1}) \subseteq L(G_{2})$

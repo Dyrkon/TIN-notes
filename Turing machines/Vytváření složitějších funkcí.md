@@ -1,0 +1,6 @@
+- Kombinace funkcí
+	- $f \times g: \mathbb{N}^{k} \rightarrow \mathbb{N}^{m+n}$
+	- $f \times g(\overline{x}) = (f(\overline{x}), g(\overline{x})), \overline{x} \in \mathbb{N}^{k}$
+- Kompozice funkcí
+	- $g \circ f : \mathbb{N}^{k} \rightarrow \mathbb{N}^{m}$
+	- $g \circ f(\overline{x}) = g(f(\overline{x})), \overline{x} \in \mathbb{N}^{k}$

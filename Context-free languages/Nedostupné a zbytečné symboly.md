@@ -1,0 +1,3 @@
+- Symbol je nedostupný pokud neexistuje derivace, ve které by byl na pravé straně pravidla
+- Symbol je zbytečný, pokud neexistuje derivace, ve které by se tento neterminál zderivoval na terminál
+- Pro výpočty využíváme fix point algoritmy

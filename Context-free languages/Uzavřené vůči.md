@@ -1,0 +1,9 @@
+- $\mathcal{L}_{2}$ **jsou** uzavřené vůči substituci
+- $\mathcal{L}_{2}$ **jsou** uzavřené vůči $\cup$
+	- plyne ze substituce $L_{a}, L_{b}$ do jazyka $\{a,b\}$
+- $\mathcal{L}_{2}$ **jsou** uzavřené vůči $.$ (konkatenaci)
+	- plyne ze substituce $L_{a}, L_{b}$ do jazyka $\{ab\}$
+- $\mathcal{L}_{2}$ **jsou** uzavřené vůči $*$
+	- plyne ze substituce $L_{a}$ do jazyka $\{a\}^{*}$
+- $\mathcal{L}_{2}$ **jsou** uzavřené vůči $+$
+	- plyne ze substituce $L_{a}$ do jazyka $\{a\}^{+}$

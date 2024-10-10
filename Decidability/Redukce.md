@@ -1,0 +1,9 @@
+- Technika používající se pro dokázání, že nějaký problém je nerozhodnutelný nebo částečné rozhodnutelný:
+	- Víme, že jazyk A není rekurzivní
+	- Zkoumáme jazyk B
+	- ukážeme, že A dokážeme pomocí úplného TS převést (redukovat) na B
+	- To znamená, že B rovněž není rekurzivní
+- Nechť A, B jsou jazyky $A \subseteq \Sigma^*$ a $B \subseteq \Psi^*$
+	- Redukce jazyka A na B je totální rekurzivně vyčíslitelná funce $\sigma: \Sigma^* \rightarrow \Psi^*$ taková, že $\forall w \in \Sigma^*: w \in A \Leftrightarrow \sigma(w) \in B$
+- Existuje-li redukce jazyka A na jazyk B, říkáme, že jazyk A je redukovatelný na jazyk B
+	- To značíme $A \leq B$

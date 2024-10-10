@@ -1,0 +1,4 @@
+- Vytvoříme třídy rozkladu jazyka a zapíšeme je:
+	- $\forall u,v: u \sim v \Leftrightarrow (...) \lor (...) \lor ...$
+	- Takto definované třídy zapíšeme do rozkladu $\Sigma^* / \sim_L = \{...\}$
+- Pokud je velikost $\Sigma^* / \sim_L$ konečná a spojením některých tříd vznikne jazyk $L$, pak je jazyk regulární

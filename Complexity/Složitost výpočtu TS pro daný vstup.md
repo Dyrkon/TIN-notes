@@ -1,0 +1,5 @@
+- Časová složitost
+	- Počet kroků provedených TS od počátku do konce výpočtu
+- Prostorová složitost
+	- počet políček pásky TS potřebný pro daný výpočet
+- Je li časová složitost výpočtu TS *n*, pak prostorová složitost nemůže být větší než *n+1*

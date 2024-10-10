@@ -1,0 +1,4 @@
+- Množina řetězců, po jejichž přečtení se dostanu z počátečního stavu do daného stavu
+- $L^{-1}(q) = \{w \in Sigma^* \mid (s_0, w) \vdash^* (q, \varepsilon)\}$
+- Je třeba mít úplný KA
+- Množina těchto řetězců $L^{-1}$ pro všechny stavy úplného KA nám dá rozklad $\Sigma^*$ podle relace prefixové ekvivalence

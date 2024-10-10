@@ -1,0 +1,8 @@
+- Nulová funkce: $\xi()$ = 0
+	- Zobrazuje  "prázdnou $n$-tici" $\rightarrow 0$ 
+- Funkce následníka:
+	- $\sigma : \mathbb{N} \rightarrow \mathbb{N}$
+	- $\sigma(x) = x+1$
+- Projekce $\pi^{n}_{k} : \mathbb{N}^{n} \rightarrow \mathbb{N}$
+	- Vybírá z $n$-tice $k$-tou složku
+	- pokud $k = 0$, potom vrací $()$

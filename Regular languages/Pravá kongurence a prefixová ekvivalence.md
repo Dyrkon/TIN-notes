@@ -1,0 +1,7 @@
+- Nechť $\Sigma$ je abeceda a $\sim$ je ekvivalence na $\Sigma^*$
+	- Ekvivalence $\sim$ je pravou kongurencí, pokud pro každé $u,v,w \in \Sigma^*$ platí, že:
+		- $u \sim v \Longrightarrow uw \sim vw$
+- Nechť $L$ je libovolný jazyk nad $\Sigma$.
+	- Na množině $\Sigma^*$ definujeme relaci $\sim_L$ zvanou prefixová ekvivalence pro $L$ takto:
+		- $u \sim_L v \overset{def}{\Leftrightarrow} \forall w \in \Sigma^*: uw \in L \Leftrightarrow vw \in L$ ^846b4a
+	- Prefixová ekvivalence je speciální případ pravé kongurence

@@ -1,0 +1,8 @@
+- Nechť $M = (Q, \Sigma, \delta, q_0, F)$ je plně specifikovaný DKA
+	- Říkáme, že řetězec $w \in \Sigma^*$ rozlišuje $q_1$ a $q_2$, jestli:
+		- $(q_1, w) \vdash^*_M (q_3, \varepsilon)$
+		- $(q_2, w) \vdash^*_M (q_4, \varepsilon)$
+		- A platí, že $(q_3 \in F \land q_4 \notin F) \lor (q_3 \notin F \land q_4 \in F)$
+	- Říkáme, že stavy $q_1, q_2$ jsou $k$-nerozlišitelné a píšeme $q_1 \overset{k}{\equiv} q_2$, právě když neexistuje $w \in \Sigma^*$, $\mid w \mid \leq k$, které by $q_1,q_2$ rozlišuje
+	- Stavy $q_1,q_2$ jsou nerozlišitelné, značíme $q_1 \equiv q_2$ pokud jsou $k$-nerozlišitelné pro $k \geq 0$
+- Úplně definovaný DKA $M$ nazýváme redukovaný, jestli žádný stav z $Q$ není nedostupný a žádné dva stavy nejsou nerozlišitelné

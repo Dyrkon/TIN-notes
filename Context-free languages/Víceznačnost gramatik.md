@@ -1,0 +1,6 @@
+- Nechť G je gramatika, říkáme, že věta $w$ generovaná G je víceznačná, pokud existují alespoň dva různé derivační stromy s koncovými uzly tvořícími větu $w$
+	- V opačném případě říkáme, že G je jednoznačná
+- Problém víceznačnosti gramatik je **nerozhodnutelný**
+- Víceznačnost je negativní **rys**
+	- Vede k větám, které mají několik interpretací
+	- Může být jednodušší než jednoznačná *BKG*
